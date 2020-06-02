@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Setting Font Size</title>
+<style>
+body {
+	font-size: 120%;
+}
+</style>
+</head>
+<body>
+<div>Regular text</div>
+<!-- this "font-size: 2em attribute value means to double the font of whatever the relative font of the text is right now" -->
+<div style = "font-size: 2em;">2em text
+	<!--We use 2em again because the font size increase is cummulative, if we did 4em, the font would be 8 times its normal size -->
+  <div style = "font-size: 2em;">4em text
+    <div stye = "font-size: .5em;" >2em again!</div>
+  </div>
+</div>
+</body>
+</html>
