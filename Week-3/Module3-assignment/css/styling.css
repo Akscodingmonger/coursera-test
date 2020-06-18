@@ -1,0 +1,127 @@
+#header-nav{
+	background-color: #99FFCC;
+	border-radius: 0;
+	border: 0;
+	height: 150px;
+}
+
+img{
+	width: 180px;
+	height: 150px;
+	margin-right: 15px;
+}
+
+#call-btn, #xs-deliver{
+	position: relative;
+	top: -70px;
+}
+
+body{
+	overflow: auto;
+}
+
+footer{
+	background-color: #9999FF;
+}
+
+.jumbotron h2{
+	background-color: #FFB266;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.navbar-brand h1{
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#sub-image{
+	width: 80px;
+	height: 60px;
+}
+
+li a{
+	font-size: 1.8em;
+	font-color: black;
+}
+
+#xs-deliver{
+	float: right;
+}
+
+#nav-list{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.navbar-header{
+		width: .1em;
+	}
+
+	.navbar-brand h1{
+		font-size: 1.2em;
+	}
+
+	.navbar-brand p{
+		font-size: .8em;
+	}
+
+	#sub-img{
+		width: 5vw;
+	}
+
+	#nav-list{
+		font-size: .9em;
+	}
+
+	h1, #award-text{
+		position: relative;
+		right: -190px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.navbar-header{
+		width: .1em;
+	}
+
+	.navbar-brand h1{
+		font-size: 1.2em;
+	}
+
+	.navbar-brand p{
+		font-size: .8em;
+	}
+
+	#sub-img{
+		width: 5vw;
+	}
+
+	#nav-list{
+		font-size: .8em;
+	}
+
+	h1, #award-text{
+		position: relative;
+		right: -190px;
+	}
+
+	#phone{
+		clear: both;
+	}
+}
+
+
+@media(max-width: 768px){
+	.btn{
+		float: right;
+	}
+
+}
