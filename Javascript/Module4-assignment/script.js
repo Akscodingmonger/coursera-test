@@ -41,7 +41,7 @@ WARNING!!! WARNING!!!
     }
 
     else {
-       helloSpeaker.greetings(names[i]);
+       helloSpeaker.SpeakHello(names[i]);
     }
   }
 
